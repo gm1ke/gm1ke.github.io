@@ -1,33 +1,170 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My Portfolio</title>
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<!-- Header -->
-	<header>
-		<nav>
-			<!-- Navigation links -->
-		</nav>
-	</header>
-	<!-- Project Showcase -->
-	<main>
-		<!-- Project card example -->
-		<div class="project-card">
-			<img src="images/project1.jpg" alt="Project 1">
-			<h2>Project 1</h2>
-			<p>Short description of Project 1</p>
-			<p><a href="https://github.com/gm1ke/project1">View on GitHub</a></p>
-		</div>
-		<!-- Add more project cards here -->
-	</main>
-	<!-- Footer -->
-	<footer>
-		<!-- Contact information and social media links -->
-	</footer>
-	<script src="js/script.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>George Mike</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#about">About</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1><span class="about__name">George Mike</span></h1>
+        <h3 class="about__role">Data Analytics &bullet; Data Visualization</h3>
+        </br>
+        <h4>
+          <i aria-hidden="true" class="fa fa-line-chart"></i> &bullet; <i aria-hidden="true" class="fa fa-bar-chart"></i> &bullet; <i aria-hidden="true" class="fa fa-pie-chart"></i> &bullet; <i aria-hidden="true" class="fa fa-area-chart"></i>
+        </h4>
+        <p class="about__desc">
+          &nbsp;&nbsp;&nbsp;&nbsp;I'm passionate about driving strategic improvements through data-driven insights, built on a solid foundation in data analysis.
+        </p>
+
+        <div class="about__contact center">
+          <a
+            href="https://www.linkedin.com"
+            aria-label="linkedin"
+            class="link link--icon"
+            target="_new"
+            alt="LinkedIn"
+          >
+            <i
+              aria-hidden="true"
+              class="fab fa-linkedin"
+              style="font-size: 50px"
+              alt="LinkedIn"
+            ></i>
+          </a>
+
+          <a
+            href="https://github.com/gm1ke"
+            aria-label="github"
+            class="link link--icon"
+            target="_new"
+            alt="Github"
+          >
+            <i
+              aria-hidden="true"
+              class="fab fa-github-square"
+              style="font-size: 50px"
+              alt="Github"
+            ></i>
+          </a>
+
+	 <a
+             href="https://powerbi.microsoft.com"
+             aria-label="powerbi"
+             class="link link--icon"
+             target="_new"
+         alt="Power BI"
+         >
+             <iconify-icon
+             icon="cib:microsoft-power-bi"
+             style="font-size: 50px"
+             alt="Power BI"
+             ></iconify-icon>
+         </a>
+          <a
+            href="https://public.tableau.com"
+            aria-label="tableau"
+            class="link link--icon"
+            target="_new"
+            alt="Tableau Public"
+          >
+            <iconify-icon
+              icon="ion:logo-tableau"
+              style="font-size: 50px"
+              alt="Tableau Public"
+            ></iconify-icon>
+          </a>
+
+          <a
+            href="https://github.com/user-attachments/files/16739213/George.Mike.Cv.pdf"
+            aria-label="resume"
+            class="link link--icon"
+            target="_new"
+            alt="Resume"
+          >
+            <iconify-icon
+              icon="academicons:cv-square"
+              style="font-size: 50px"
+              alt="resume"
+            ></iconify-icon>
+          </a>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <!-- Skills -->
+<section class="section skills" id="skills">
+  <h2 class="section__title">Skills</h2>
+  <ul class="skills__list">
+    <li class="skills__list-item btn btn--plain">Excel</li>
+    <li class="skills__list-item btn btn--plain">Power BI</li>
+    <li class="skills__list-item btn btn--plain">SQL</li>
+    <li class="skills__list-item btn btn--plain">Tableau</li>
+    <li class="skills__list-item btn btn--plain">Python</li>
+  </ul>
+</section>
+<!-- Contact -->
+<section class="section contact center" id="contact">
+  <h2 class="section__title">Contact</h2>
+  <a href="mailto:georgemike670@gmail.com">
+    <span class="btn btn--outline">Email me</span>
+  </a>
+</section>
+</main>
+
+    <footer class="footer">
+</footer>
+
+<div class="scroll-container">
+  <div class="scroll-top">
+    <a aria-label="Scroll up" href="#top">
+      <i aria-hidden="true" class="fas fa-arrow-up"></i>
+    </a>
+  </div>
+</div>
+<script src="./script.js"></script>
 </body>
 </html>
+      
