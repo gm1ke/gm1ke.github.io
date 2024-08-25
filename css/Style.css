@@ -1,3 +1,7 @@
+/*===============
+  global styles
+===============*/
+
 * {
   padding: 0;
   margin: 0;
@@ -61,7 +65,7 @@ h4 {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 h2 {
@@ -90,14 +94,7 @@ button {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 2.3rem;
-  }
-
-  h2 {
-	font-size: 1.5rem;
-  }
-  h3 {
-	font-size: 1.2rem;
+    font-size: 2.6rem;
   }
 }
 
@@ -186,7 +183,6 @@ button {
   background-color: var(--clr-bg-alt);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   border: 0;
-  border-radius: 5%;
 }
 
 .btn--plain:hover {
@@ -217,7 +213,7 @@ button {
 }
 
 .header {
-  height: 4em;
+  height: 8em;
   max-width: 1100px;
   width: 95%;
   margin: 0 auto;
@@ -231,7 +227,7 @@ main {
 }
 
 .section {
-  margin-top: 2em;
+  margin-top: 5em;
 }
 
 .section__title {
@@ -257,7 +253,6 @@ main {
 .about {
   flex-direction: column;
   margin-top: 3em;
-  text-align: center;
 }
 
 .about__name {
@@ -265,7 +260,7 @@ main {
 }
 
 .about__role {
-  margin-top: 1em;
+  margin-top: 1.2em;
 }
 
 .about__desc {
@@ -275,8 +270,7 @@ main {
 
 .about__desc,
 .about__contact {
-  margin-top: 1.2em;
-  text-align: left;
+  margin-top: 2.4em;
 }
 
 .about .link--icon {
@@ -301,7 +295,6 @@ main {
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
-  border-radius: 4%;
 }
 
 .project:hover {
@@ -310,7 +303,6 @@ main {
 
 .project__description {
   margin-top: 1em;
-  text-align: left;
 }
 
 .project__stack {
@@ -355,7 +347,7 @@ main {
 }
 
 .footer__link {
-  font-size: 0.5rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--clr-fg);
 }
@@ -376,7 +368,7 @@ main {
   }
 
   .section {
-    margin-top: 3em;
+    margin-top: 4em;
   }
 
   .nav__list {
@@ -406,7 +398,7 @@ main {
   }
 
   .about {
-    align-items:center;
+    align-items: flex-start;
     margin-top: 2em;
   }
 
