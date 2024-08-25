@@ -308,6 +308,17 @@ main {
   transform: translateY(-7px);
 }
 
+/* Add the .thumbnail class here */
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4%;
+  margin: 0 auto;
+  display: block;
+}
+
 .project__description {
   margin-top: 1em;
   text-align: left;
