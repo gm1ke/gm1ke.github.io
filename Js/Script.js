@@ -61,3 +61,8 @@ const scrollUp = () => {
 }
 
 document.addEventListener('scroll', scrollUp)
+		btnScrollTop.style.display = 'none'
+	}
+}
+
+document.addEventListener('scroll', scrollUp)
